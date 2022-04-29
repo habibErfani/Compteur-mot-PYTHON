@@ -7,6 +7,7 @@ class Fenetre(QWidget):
     def __init__(self):
         QWidget.__init__(self)
 
+        
         # création du champ de texte
         self.champ = QLineEdit()
         self.motChoisi = QLineEdit()

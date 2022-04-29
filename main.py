@@ -71,5 +71,4 @@ if not app:
 fen = Fenetre()
 fen.show()
 
-
 app.exec_()

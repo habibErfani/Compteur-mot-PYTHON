@@ -2,6 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, \
                             QVBoxLayout, QLabel, QLineEdit
 
+
 class Fenetre(QWidget):
     def __init__(self):
         QWidget.__init__(self)
@@ -22,6 +23,7 @@ class Fenetre(QWidget):
         # création de l'étiquette
         self.label = QLabel()
         self.resize(750,500)
+        
         
         # mise en place du gestionnaire de mise en forme
         layout = QVBoxLayout()

@@ -6,7 +6,6 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, \
 class Fenetre(QWidget):
     def __init__(self):
         QWidget.__init__(self)
-
         
         # création du champ de texte
         self.champ = QLineEdit()
@@ -24,8 +23,7 @@ class Fenetre(QWidget):
         # création de l'étiquette
         self.label = QLabel()
         self.resize(750,500)
-        
-        
+ 
         # mise en place du gestionnaire de mise en forme
         layout = QVBoxLayout()
         layout.addWidget(self.champ)
@@ -63,7 +61,6 @@ class Fenetre(QWidget):
         self.label2.setText("nbr de mots : ")
         self.label3.setText("nbr de phrases : ")
         self.label4.setText("le mot choisi apparait ... fois")
-
 
 
         

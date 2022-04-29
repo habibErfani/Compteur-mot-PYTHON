@@ -62,7 +62,6 @@ class Fenetre(QWidget):
         self.label3.setText("nbr de phrases : ")
         self.label4.setText("le mot choisi apparait ... fois")
 
-
         
 app = QApplication.instance() 
 if not app:

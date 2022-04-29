@@ -65,11 +65,14 @@ class Fenetre(QWidget):
 
 
 
+        
 app = QApplication.instance() 
 if not app:
     app = QApplication(sys.argv)
     
+    
 fen = Fenetre()
 fen.show()
+
 
 app.exec_()

@@ -45,6 +45,7 @@ class Fenetre(QWidget):
         
         self.setWindowTitle("Compteur de mot")
 
+        
     # on définit une méthode à connecter au signal envoyé
     def resultat(self):
         contenu = self.champ.text()

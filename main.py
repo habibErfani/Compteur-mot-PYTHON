@@ -68,6 +68,7 @@ if not app:
     app = QApplication(sys.argv)
     
     
+    
 fen = Fenetre()
 fen.show()
 app.exec_()

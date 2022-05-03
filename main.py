@@ -10,7 +10,7 @@ class Fenetre(QWidget):
         # création du champ de texte
         self.champ = QLineEdit()
         self.motChoisi = QLineEdit()
-        
+    
         
         # création du bouton
         self.bouton = QPushButton("GO")

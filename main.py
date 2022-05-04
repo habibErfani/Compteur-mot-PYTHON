@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, \
-                            QVBoxLayout, QLabel, QLineEdit
+            QVBoxLayout, QLabel, QLineEdit
+
 
 class Fenetre(QWidget):
     def __init__(self):

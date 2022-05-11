@@ -13,7 +13,6 @@ class Fenetre(QWidget):
         
           
 
-
            
         # création du bouton
         self.bouton = QPushButton("GO")

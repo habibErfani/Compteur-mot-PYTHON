@@ -10,7 +10,6 @@ class Fenetre(QWidget):
         self.champ = QLineEdit()
         self.motChoisi = QLineEdit()    
        
-    
       
         # création du bouton
         self.bouton = QPushButton("GO")
